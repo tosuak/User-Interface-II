@@ -40,19 +40,23 @@ body{
     font-size: 1.8rem;
     line-height: 1.5;
     color: #4f4f4f;
+    background-color: lightgray;
+    margin: 0;
 }
 header{
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 0;
     z-index: 999;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 .logo{
     font-size: 4rem;
     font-family: 'Alata', sans-serif;
     width: 25%;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 .navigation{
     width: 50%;
@@ -73,24 +77,147 @@ nav a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 15% 0%;
-    margin: 2% 10%;
+    background-image: url(/images/efe-kurnaz-RnCPiXixooY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5% 0% 3% 0%;
+    width: 100vw;
+    height: 50vh;  
 }
+
 .top h1{
     font-size: 6rem;
     font-family: 'alata', sans-serif;
 }
 .top button{
     padding: 1% 3%;
-    border-radius: 15%;
+    border-radius: 10%;
 }
 
 .bottom{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
+    text-align: center;
+
+}
+.project1, .project2, .project3, .project4, .project5, .project6{
+    width: 25vw;
+    height: 30vh;  
 }
 .pr1-img{
-    background-image: url(/../../../Documents/images/image1.jpg);
-    
+    background-image: url(/images/image1.jpg);
+    display: flex;
+    width: 25vw;
+    height: 25vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;    
+
+}
+.pr1-txt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.pr2-img{
+    background-image: url(/images/image2.jpg);
+    display: flex;
+    width: 25vw;
+    height: 25vh;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;    
+}
+.pr2-txt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;      
+}
+.pr3-img{
+    background-image: url(/images/image3.jpg);
+    display: flex;
+    width: 25vw;
+    height: 25vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;    
+
+}
+.pr3-txt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;      
+}
+.pr4-img{
+    background-image: url(/images/image4.jpg);
+    display: flex;
+    width: 25vw;
+    height: 25vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;    
+
+}
+.pr4-txt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;      
+}
+.pr5-img{
+    background-image: url(/images/image5.jpg);
+    display: flex;
+    width: 25vw;
+    height: 25vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;    
+
+}
+.pr5-txt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;      
+}
+.pr6-img{
+    background-image: url(/images/image6.jpg);
+    display: flex;
+    width: 25vw;
+    height: 25vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;    
+
+}
+.pr6-txt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;      
+}
+
+footer{
+    background-color: green;
+    padding: 3%;
+    margin-top: 2%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+footer button{
+    padding: 1% 2%;
+    border-radius: 10%;
 }
