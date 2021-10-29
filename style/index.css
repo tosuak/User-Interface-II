@@ -39,7 +39,7 @@ body{
     font-size: 1.8rem;
     line-height: 1.5;
     color: #4f4f4f;
-    background-color: black;
+    background-color: #282833;
     margin: 0;
     font-family: 'Alata', sans-serif;
 }
@@ -50,7 +50,7 @@ header{
     width: 100%;
     top: 0;
     z-index: 999;
-    background-color: rgba(65, 65, 65, 0.8);
+    background-color: rgba(66, 66, 99, 0.8);
 
 }
 .logo h2 a{
@@ -64,7 +64,7 @@ header{
     margin-left: 10%;
 }
 .logo h2 a:hover{
-    color: black;
+    color: #f7ad68;
 }
 .navigation{
     width: 25%;
@@ -79,14 +79,14 @@ header{
 nav a{
     padding: 1%  3%;
     color: white;
-    background-color: black;
+    background-color: #8282bb;
     text-decoration: none;
     transition: .5s;
     border-radius: 10%;
     text-align: center;
 }
 nav a:hover{
-    background-color: white;
+    background-color: #f7ad68;
     color: black;
 }
 .top{
@@ -113,11 +113,11 @@ nav a:hover{
     border-radius: 10%;
     font-family: 'Alata', sans-serif;
     transition: .5s;
-    background-color: black;
+    background-color: #8282bb;
     color: white;
 }
 .top button:hover{
-    background-color: white;
+    background-color: #f7ad68;
     color: black;
 }
 .bottom{
@@ -151,7 +151,7 @@ nav a:hover{
     color: white;
 }
 .pr1-img:hover{
-    border: 5px dashed white;
+    border: 5px ridge #8282bb;
 }
 .pr2-img{
     background-image: url(/images/image2.jpg);
@@ -173,7 +173,7 @@ nav a:hover{
     color:white;   
 }
 .pr2-img:hover{
-    border: 5px dashed white;
+    border: 5px ridge #8282bb;
 }
 .pr3-img{
     background-image: url(/images/image3.jpg);
@@ -195,7 +195,7 @@ nav a:hover{
     color: white; 
 }
 .pr3-img:hover{
-    border: 5px dashed white;
+    border: 5px ridge #8282bb;
 }
 .pr4-img{
     background-image: url(/images/image4.jpg);
@@ -217,7 +217,7 @@ nav a:hover{
     color: white;      
 }
 .pr4-img:hover{
-    border: 5px dashed white;
+    border: 5px ridge #8282bb;
 }
 .pr5-img{
     background-image: url(/images/image5.jpg);
@@ -239,7 +239,7 @@ nav a:hover{
     color: white;      
 }
 .pr5-img:hover{
-    border: 5px dashed white;
+    border: 5px ridge #8282bb;
 }
 .pr6-img{
     background-image: url(/images/image6.jpg);
@@ -260,10 +260,10 @@ nav a:hover{
     color: white;    
 }
 .pr6-img:hover{
-    border: 5px dashed white;
+    border: 5px ridge #8282bb;
 }
 footer{
-    background-color: dimgray;
+    background-color: #666699;
     padding: 3%;
     margin-top: 2%;
     margin-bottom: 0;
@@ -276,10 +276,10 @@ footer button{
     border-radius: 10%;
     font-family: 'Alata', sans-serif;
     color: white;
-    background-color: black;
+    background-color: #8282bb;
     transition: .5s;
 }
 footer button:hover{
     color: black;
-    background-color: white;
+    background-color: #f7ad68;
 }
