@@ -47,6 +47,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
@@ -76,6 +77,7 @@ header{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 4%;
+    margin-bottom: 4%;
 }
 nav a{
     padding: 1%  3%;
