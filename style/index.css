@@ -51,12 +51,19 @@ header{
     top: 0;
     z-index: 999;
     background-color: rgba(65, 65, 65, 0.8);
+
 }
-.logo{
+.logo h2 a{
+    text-decoration: none; 
     font-size: 4rem;
     font-family: 'Alata', sans-serif;
     width: 25%;
     color: white;
+    transition: .5s;
+    margin-left: 10%;
+}
+.logo h2 a:hover{
+    color: black;
 }
 .navigation{
     width: 25%;
@@ -69,12 +76,13 @@ header{
     margin-top: 4%;
 }
 nav a{
-    padding: .5% 2.5%;
+    padding: 1%  3%;
     color: white;
     background-color: black;
     text-decoration: none;
-    transition: 1s;
+    transition: .5s;
     border-radius: 10%;
+    text-align: center;
 }
 nav a:hover{
     background-color: white;
@@ -89,7 +97,7 @@ nav a:hover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 4.2% 0% 1% 0%;
+    margin: 4.2% 0% 2% 0%;
     width: 100vw;
     height: 50vh;  
 }
@@ -103,7 +111,7 @@ nav a:hover{
     padding: .7% 3%;
     border-radius: 10%;
     font-family: 'Alata', sans-serif;
-    transition: 1s;
+    transition: .5s;
     background-color: black;
     color: white;
 }
@@ -131,14 +139,18 @@ nav a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
-    align-items: center;    
-
+    align-items: center;
+    transition: .15s;    
 }
+
 .pr1-txt{
     display: flex;
     justify-content: center;
     align-items: flex-end;
     color: white;
+}
+.pr1-img:hover{
+    border: 5px dashed white;
 }
 .pr2-img{
     background-image: url(/images/image2.jpg);
@@ -150,12 +162,17 @@ nav a:hover{
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;    
+    transition: .15s;
+
 }
 .pr2-txt{
     display: flex;
     justify-content: center;
     align-items: flex-end;   
     color:white;   
+}
+.pr2-img:hover{
+    border: 5px dashed white;
 }
 .pr3-img{
     background-image: url(/images/image3.jpg);
@@ -167,6 +184,7 @@ nav a:hover{
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;    
+    transition: .15s;
 
 }
 .pr3-txt{
@@ -174,6 +192,9 @@ nav a:hover{
     justify-content: center;
     align-items: flex-end;     
     color: white; 
+}
+.pr3-img:hover{
+    border: 5px dashed white;
 }
 .pr4-img{
     background-image: url(/images/image4.jpg);
@@ -185,6 +206,7 @@ nav a:hover{
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;    
+    transition: .15s;
 
 }
 .pr4-txt{
@@ -192,6 +214,9 @@ nav a:hover{
     justify-content: center;
     align-items: flex-end;
     color: white;      
+}
+.pr4-img:hover{
+    border: 5px dashed white;
 }
 .pr5-img{
     background-image: url(/images/image5.jpg);
@@ -203,6 +228,7 @@ nav a:hover{
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;    
+    transition: .15s;
 
 }
 .pr5-txt{
@@ -210,6 +236,9 @@ nav a:hover{
     justify-content: center;
     align-items: flex-end;
     color: white;      
+}
+.pr5-img:hover{
+    border: 5px dashed white;
 }
 .pr6-img{
     background-image: url(/images/image6.jpg);
@@ -221,7 +250,7 @@ nav a:hover{
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;    
-
+    transition: .15s;
 }
 .pr6-txt{
     display: flex;
@@ -229,9 +258,11 @@ nav a:hover{
     align-items: flex-end;  
     color: white;    
 }
-
+.pr6-img:hover{
+    border: 5px dashed white;
+}
 footer{
-    background-color: darkslategray;
+    background-color: dimgray;
     padding: 3%;
     margin-top: 2%;
     margin-bottom: 0;
@@ -245,7 +276,7 @@ footer button{
     font-family: 'Alata', sans-serif;
     color: white;
     background-color: black;
-    transition: 1s;
+    transition: .5s;
 }
 footer button:hover{
     color: black;
