@@ -57,8 +57,8 @@ header{
 .logo h2 a{
     text-decoration: none; 
     font-size: 4rem;
-    font-family: 'Alata', sans-serif;
     font-weight: 900;
+    font-family: 'Alata', sans-serif;
     width: 25%;
     color: white;
     transition: .5s;
@@ -99,24 +99,33 @@ nav a:hover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 4.2% 0% 0% 0%;
+    margin-top: 4.2%;
     padding-bottom: 0%;
     width: 100vw;
     height: 100vh;  
 }
 
 .top h1{
-    font-size: 6rem;
+    font-size: 7.5rem;
     font-family: 'alata', sans-serif;
     color: whitesmoke;
     margin-top: 20%;
+    font-weight: bold;
 }
-.top p{
-    padding: .7% 3%;
-    font-size: 1.7rem;
+.top .contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.top .contact a{
+    text-decoration: none;
+    font-size: 2.5rem;
     font-family: 'Alata', sans-serif;
     color: whitesmoke;
-    text-align: center;
+    transition: 1s;
+}
+.top .contact a:hover{
+    color: black;
 }
 .bg-img{
     background-image: url(/images/tumblr_mkqtnpDYGH1rnwo2vo1_500.gif);
@@ -127,25 +136,4 @@ nav a:hover{
     width: 35vw;
     height: 30vh;
     background-repeat: no-repeat;
-}
-footer{
-    background-color: dimgray;
-    padding: 3%;
-    margin-top: 0%;
-    margin-bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
-footer button{
-    padding: .7% 3%;
-    border-radius: 10%;
-    font-family: 'Alata', sans-serif;
-    color: white;
-    background-color: black;
-    transition: .5s;
-}
-footer button:hover{
-    color: black;
-    background-color: white;
 }

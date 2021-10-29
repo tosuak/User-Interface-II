@@ -57,6 +57,7 @@ header{
     text-decoration: none; 
     font-size: 4rem;
     font-family: 'Alata', sans-serif;
+    font-weight: 900;
     width: 25%;
     color: white;
     transition: .5s;
