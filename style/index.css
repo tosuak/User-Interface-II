@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 /*general styling*/
@@ -62,7 +62,7 @@ header{
 }
 .logo h2 a{
     text-decoration: none; 
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-family: 'Alata', sans-serif;
     font-weight: 900;
     color: white;
@@ -100,7 +100,6 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     text-align: center;
     background-image: url(/images/efe-kurnaz-RnCPiXixooY-unsplash.jpg);
     background-position: center;
@@ -270,5 +269,47 @@ footer button:hover{
     background-color: #fc8a1fc0;
 }
 
-/* media queires */
-@media(max)
+/* media phone */
+@media(max-width: 500px){
+    body{
+        background-color: rgb(46, 7, 39);
+    }
+    header{
+        display: flex;
+        flex-flow: column wrap;
+        background: none;
+        position: relative;
+    }
+    .logo h2 a{
+        color: white;
+        font-size: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation nav{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .top{
+        margin-top: 3%;
+        margin-left: 12%;
+        margin-bottom: 15%;
+        padding: 15% 10%;
+        width: 80%;
+        height: 50%;
+   }
+   .top .bg-img{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+    .top h1{
+        font-size: 4rem;
+    }
+    .top button{
+        padding: 3% 7%;
+    }
+
+}
