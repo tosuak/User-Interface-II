@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 /*general styling*/
@@ -304,33 +304,36 @@ footer button:hover{
     }
     .navigation nav a{
         width: 25vw;
+        padding: 3%;
+        font-size: 2rem;
     }
 
+    .container-top{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+       }
     .top{
-        margin-top: 3%;
-        margin-left: 10%;
-        margin-bottom: 15%;
-        padding: 10% 15%;
+        margin: 2%;
         width: 80%;
-        height: 50%;
-   }
-   .top .bg-img{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }
-    .top h1{
+        height: 25vh;
+        padding: 0%;
+    }
+      
+    .top-text h1{
         font-size: 4rem;
     }
-    .top button{
-        padding: 3% 10%;
+    .top-text button{
+        font-size: 2rem;
     }
+  
     .bottom{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
     .project1, .project2, .project3, .project4, .project5, .project6{
+        padding: 1%;
         width: 50%;
         margin-top: 5%;
     }
