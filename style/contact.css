@@ -135,7 +135,9 @@ nav a:hover{
     justify-content: center;
     align-items: flex-end;
     margin-top: 5%;
-    width: 35vw;
+    width: 27vw;
     height: 30vh;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
