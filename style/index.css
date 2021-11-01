@@ -280,23 +280,37 @@ footer button:hover{
         background: none;
         position: relative;
     }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+   
     .logo h2 a{
+        margin: 0%;
+        padding: 0%;
         color: white;
         font-size: 5rem;
+    }
+    .navigation{
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .navigation nav{
+    .navigation nav {
         display: flex;
         flex-flow: column wrap;
+    }
+    .navigation nav a{
+        width: 25vw;
     }
 
     .top{
         margin-top: 3%;
-        margin-left: 12%;
+        margin-left: 10%;
         margin-bottom: 15%;
-        padding: 15% 10%;
+        padding: 10% 15%;
         width: 80%;
         height: 50%;
    }
@@ -309,7 +323,28 @@ footer button:hover{
         font-size: 4rem;
     }
     .top button{
-        padding: 3% 7%;
+        padding: 3% 10%;
+    }
+    .bottom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .project1, .project2, .project3, .project4, .project5, .project6{
+        width: 50%;
+        margin-top: 5%;
+    }
+    .pr1-img, .pr2-img, .pr3-img, .pr4-img, .pr5-img, .pr6-img{
+        width: 40vw;
+        height: 20vh;
+    }
+    footer{
+        margin-top: 2%;
+        padding: 12%;
+    }
+    footer button{
+        font-size: 2rem;
+        padding: 2%;
     }
 
 }
