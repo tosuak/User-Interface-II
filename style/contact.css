@@ -29,6 +29,8 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     margin: 0;
     max-width: 100%;
+    /* border: 1px solid grey; */
+
 }
 
 /*general styling*/
@@ -39,7 +41,7 @@ body{
     font-size: 1.8rem;
     line-height: 1.5;
     color: #4f4f4f;
-    background-color: #282833;
+    background-color: #000000;
     margin: 0;
     font-family: 'Alata', sans-serif;
 
@@ -52,66 +54,66 @@ header{
     width: 100%;
     top: 0;
     z-index: 999;
-    background-color: rgba(66, 66, 99, 0.8);
+    background-color: rgba(194, 48, 194, 0.452);
 
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .logo h2 a{
     text-decoration: none; 
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 900;
     font-family: 'Alata', sans-serif;
-    width: 25%;
     color: white;
     transition: .5s;
     margin-left: 10%;
 }
 .logo h2 a:hover{
-    color: #f7ad68;
+    color: #fc8a1fc0;
 }
 .navigation{
-    width: 25%;
+    width: 100%;
 }
 .navigation nav {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin-right: 1%;
 }
-nav a{
-    padding: 1%  3%;
+.navigation nav a{
+    margin: .1%;
+    padding: .3%  1.5%;
     color: white;
-    background-color: #8282bb;
+    background-color: #540963;
     text-decoration: none;
     transition: .5s;
-    border-radius: 10%;
     text-align: center;
+    border: 1px solid black;
 }
 nav a:hover{
-    background-color: #f7ad68;
-    color: black;
+    background-color: #fc8a1fc0;
+    color: #4f4f4f;
 }
 .top{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     background-image: url(/images/efe-kurnaz-RnCPiXixooY-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 4.2%;
-    padding-bottom: 0%;
-    width: 100vw;
     height: 100vh;  
+    flex-flow: column wrap;
 }
 
 .top h1{
-    font-size: 7.5rem;
+    font-size: 10rem;
     font-family: 'alata', sans-serif;
     color: whitesmoke;
-    margin-top: 20%;
     font-weight: bold;
 }
 .top .contact{
@@ -124,20 +126,77 @@ nav a:hover{
     font-size: 2.5rem;
     font-family: 'Alata', sans-serif;
     color: whitesmoke;
-    transition: 1s;
+    transition: .5s;
 }
 .top .contact a:hover{
-    color: #5555ff;
+    color: #540963;
 }
-.bg-img{
+.container-top .bg-img{
     background-image: url(/images/tumblr_mkqtnpDYGH1rnwo2vo1_500.gif);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-end;
-    margin-top: 5%;
-    width: 27vw;
-    height: 30vh;
+    width: 100%;
+    height: 20%;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+}
+@media(max-width: 500px){
+    body{
+        background-color: rgb(46, 7, 39);
+    }
+    header{
+        display: flex;
+        flex-flow: column wrap;
+        background: none;
+        position: relative;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+   
+    .logo h2 a{
+        margin: 0%;
+        padding: 0%;
+        color: white;
+        font-size: 5rem;
+    }
+    .navigation{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation nav {
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 5%;
+    }
+    .navigation nav a{
+        width: 25vw;
+        padding: 1%;
+        font-size: 2rem;
+    }
+    .container-top{
+        display: flex;
+        justify-content: center;
+       }
+    .top{
+        width: 100%;
+        height: 100vh;
+        margin: 10% 5%;
+    }
+      
+    .top h1{
+        font-size: 7rem;
+        margin-bottom: 5%;
+    }
+    .top .contact a{
+        font-size: 2.5rem;
+        color: white;
+        margin-bottom: 15%;
+    }
 }
